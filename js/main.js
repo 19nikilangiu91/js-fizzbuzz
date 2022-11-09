@@ -16,9 +16,19 @@ for( let i = 1; i <= 100; i++){
     // Creo le condizioni, iniziamo con "FizzBuzz".
     if(i % 3 === 0 && i % 5 === 0){
 
-        // Aggiungiamo al nostro "element" la scritta "FizzBuzz" e andiamo ad aggiungere una nuova classe "fizzbuzz".
-        element.append("FizzBuzz");
-        element.classList.add("fizzbuzz");
-        console.log("FizzBuzz");
+    // Aggiungiamo al nostro "element" la scritta "FizzBuzz" e andiamo ad aggiungere una nuova classe "fizzbuzz".
+    element.append("FizzBuzz");
+    element.classList.add("fizzbuzz");
+    console.log("FizzBuzz");
+
+    // Aggiungo la condizione per "Fizz".
+    }else if ( i % 3 === 0){
+
+    // Aggiungiamo al nostro "element" la scritta "Fizz" e andiamo ad aggiungere una nuova classe "fizz".
+    element.append("Fizz");
+    element.classList.add("fizz");
+    console.log("Fizz");
     }
+
+    
 }

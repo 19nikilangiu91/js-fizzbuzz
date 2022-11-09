@@ -27,6 +27,11 @@ h1{
     background-color: red;
 }
 
+.fizz{
+    background-color: green;
+}
+
+
 .fizzbuzz{
     color: black;
     background-color: yellow;
