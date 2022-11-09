@@ -12,4 +12,13 @@ for( let i = 1; i <= 100; i++){
 
     // Al contenitore andiamo ad aggiungere "element".
     contenitore.append(element);
+
+    // Creo le condizioni, iniziamo con "FizzBuzz".
+    if(i % 3 === 0 && i % 5 === 0){
+
+        // Aggiungiamo al nostro "element" la scritta "FizzBuzz" e andiamo ad aggiungere una nuova classe "fizzbuzz".
+        element.append("FizzBuzz");
+        element.classList.add("fizzbuzz");
+        console.log("FizzBuzz");
+    }
 }
