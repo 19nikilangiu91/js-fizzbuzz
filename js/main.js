@@ -12,6 +12,4 @@ for( let i = 1; i <= 100; i++){
 
     // Al contenitore andiamo ad aggiungere "element".
     contenitore.append(element);
-
-
 }
