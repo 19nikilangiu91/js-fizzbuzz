@@ -36,9 +36,10 @@ for( let i = 1; i <= 100; i++){
     element.append("Buzz");
     element.classList.add("buzz");
     console.log("Buzz");    
+
+    }else{console.log (i);
+    
+    // Aggiungiamo al nostro "element" la scritta "i" che andrà ad inserire i relativi numeri (1,2,4,7,8...)
+    element.append(i);
     }
-
-    
-
-    
 }
