@@ -28,7 +28,17 @@ for( let i = 1; i <= 100; i++){
     element.append("Fizz");
     element.classList.add("fizz");
     console.log("Fizz");
+    
+    // Aggiungo la condizione per "Buzz"
+    }else if( i % 5 === 0){
+    
+    // Aggiungiamo al nostro "element" la scritta "Buzz" e andiamo ad aggiungere una nuova classe "buzz".
+    element.append("Buzz");
+    element.classList.add("buzz");
+    console.log("Buzz");    
     }
+
+    
 
     
 }

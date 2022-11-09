@@ -31,6 +31,10 @@ h1{
     background-color: green;
 }
 
+.buzz{
+    color: black;
+    background-color: white;
+}
 
 .fizzbuzz{
     color: black;
